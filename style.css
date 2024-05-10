@@ -61,3 +61,42 @@ a{
     }
     width: 500px;
 }
+
+            /* contact me */
+
+#contact{
+    background-image: url(https://www.shutterstock.com/image-photo/white-popular-contact-web-icons-600nw-1617540217.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -16px;
+    text-align:center;
+    padding-top: 30px;
+}            
+.con1{
+    p{
+        margin-bottom: 4px;
+    }
+    h3{
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+}
+
+.linkedin{
+    i{
+        color: blue;
+    }
+}
+.insta{
+    i{
+        color: rgb(225 48 108);
+    }
+}
+.con3{
+    display: flex;
+    justify-content: center;
+    a{
+        margin-top: 16px;
+        color: rgb(232, 46, 46);
+    }
+}
