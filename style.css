@@ -60,7 +60,69 @@ a{
         margin: 5px;
     }
     width: 500px;
+    padding-bottom: 50px;
+    
 }
+
+
+
+
+
+
+
+           /* Project */
+
+
+
+           #project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/021/599/588/small/abstract-white-and-gray-overlap-circles-background-3d-paper-circle-banner-with-drop-shadows-minimal-simple-design-for-presentation-flyer-brochure-website-book-etc-vector.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.po{
+    text-align:center;
+}
+.pro{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 300px;
+    p{
+        font-size: 1.6rem;
+        margin: 15px;
+    }
+}
+.pro0{
+    p,h2{
+        margin: 0px;
+    }
+    h2{
+        padding-bottom: 15px;
+        font-size: 2.2rem;
+    }
+}
+.box{
+    border: 1px solid black;
+    height: 30px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
 
             /* contact me */
 
@@ -68,9 +130,10 @@ a{
     background-image: url(https://www.shutterstock.com/image-photo/white-popular-contact-web-icons-600nw-1617540217.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: -16px;
+    /* margin-top: -16px; */
     text-align:center;
     padding-top: 30px;
+    padding-bottom: 20px;
 }            
 .con1{
     p{
@@ -89,12 +152,13 @@ a{
 }
 .insta{
     i{
-        color: rgb(225 48 108);
+        color: rgb(62, 0, 21);
     }
 }
 .con3{
     display: flex;
     justify-content: center;
+    font-size: 1.1rem;
     a{
         margin-top: 16px;
         color: rgb(232, 46, 46);
